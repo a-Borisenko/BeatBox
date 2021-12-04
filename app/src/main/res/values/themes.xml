@@ -12,12 +12,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
-        <item name="android:background">@color/dark_blue</item>
+        <item name="android:background">@drawable/button_beat_box</item>
         <item name="android:textStyle">bold</item>
         <item name="android:windowBackground">@color/soothing_blue</item>
-        <item name="buttonStyle">@style/BeatBoxButton</item>
-    </style>
-    <style name="BeatBoxButton" parent="Widget.AppCompat.Button">
-        <item name="android:background">@color/dark_blue</item>
     </style>
 </resources>
